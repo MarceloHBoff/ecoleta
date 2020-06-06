@@ -110,8 +110,10 @@ const Points: React.FC = () => {
           {initialPosition[0] !== 0 && (
             <Map
               initialRegion={{
-                latitude: initialPosition[0],
-                longitude: initialPosition[1],
+                latitude: -29.6690494,
+                longitude: -51.0623287,
+                // latitude: initialPosition[0],
+                // longitude: initialPosition[1],
                 latitudeDelta: 0.014,
                 longitudeDelta: 0.014,
               }}
