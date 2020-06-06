@@ -161,18 +161,29 @@ const CreatePoint: React.FC = () => {
 
               <Field>
                 <label htmlFor="name">Nome da entidade</label>
-                <input type="text" id="name" onChange={handleInputChange} />
+                <input
+                  autoComplete="none"
+                  type="text"
+                  id="name"
+                  onChange={handleInputChange}
+                />
               </Field>
 
               <FieldGroup>
                 <Field>
                   <label htmlFor="email">E-mail</label>
-                  <input type="email" id="email" onChange={handleInputChange} />
+                  <input
+                    autoComplete="none"
+                    type="email"
+                    id="email"
+                    onChange={handleInputChange}
+                  />
                 </Field>
 
                 <Field>
                   <label htmlFor="whatsapp">Whatsapp</label>
                   <input
+                    autoComplete="none"
                     type="text"
                     id="whatsapp"
                     onChange={handleInputChange}
