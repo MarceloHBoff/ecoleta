@@ -1,3 +1,5 @@
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMarceloHBoff%2Fecoleta%2Fmaster%2Finsomnia.json)
+
 <h1 align="center">
   <img src="./.github/assets/logo.svg" alt="Ecoleta" />
 </h1>
