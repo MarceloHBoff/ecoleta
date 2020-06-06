@@ -46,12 +46,17 @@ interface IBGECityResponse {
   nome: string;
 }
 
+interface PickerSelectDTO {
+  label: string;
+  value: string;
+}
+
 const Home: React.FC = () => {
   const [uf, setUf] = useState('');
   const [city, setCity] = useState('');
 
-  const [ufs, setUfs] = useState<[string, string]>([]);
-  const [cities, setCities] = useState<[string, string]>([]);
+  const [ufs, setUfs] = useState<PickerSelectDTO[]>([]);
+  const [cities, setCities] = useState<PickerSelectDTO[]>([]);
 
   const navigation = useNavigation();
 
